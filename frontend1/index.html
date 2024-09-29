@@ -1,0 +1,144 @@
+<html>
+    <head> 
+    <meta name ="viewport" content="with=device-width, initial scale=1.0">
+    <title>Pharmacy Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+    <body>
+    <section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#about-us">ABOUT</a></li>
+                <li><a href="#Services">SERVICES</a></li>
+                <li><a href="#Products">PRODUCTS</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+                <li><a href="../login.php">LOGIN</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="text-box">
+        <h1>Your Health Our Priority</h1>
+        <p>We Provide you Quality for Better Medication</p>
+        <a href="#" class="hero-btn" id="show-content-btn">Visit Us To Know More</a>
+        <div id="additional-content" class="additional-content">
+            <p>At Sampada Pharmacy,we are committed to providing exceptional healthcare services and personalized care to our valued customers. When you visit us, you'll experience a pharmacy that goes beyond just dispensing medications.</p>
+            <p>Our knowledgeable pharmacists and friendly staff are here to assist you with all your healthcare needs. Whether you have questions about your medications, need advice on managing a specific health condition, or simply want to learn more about maintaining a healthy lifestyle, we are here to help.</p>
+            <p>By visiting our pharmacy, you'll have access to:</p>
+        
+    </div>
+    <script>
+        document.getElementById("show-content-btn").addEventListener("click", function() {
+            var additionalContent = document.getElementById("additional-content");
+            if (additionalContent.style.display === "none") {
+                additionalContent.style.display = "block";
+            } else {
+                additionalContent.style.display = "none";
+            }
+        });
+    </script>
+        </div> 
+    </section class="Services">
+    <h1>Our Services</h1>
+        <p>At Sampada Distributors, we are dedicated to providing exceptional services that cater to your needs.</p>
+        <div class="row">
+        <div class ="Services-col">
+        <h3>Supplier and Purchase Management</h3>
+        <p>This service supports the management of suppliers and purchase orders. It includes functionalities like maintaining supplier databases, tracking purchase orders and deliveries, managing payment terms, and generating reports on supplier performance and costs.</p>
+        </div>
+        <div class="Services-col">
+        <h3>Reporting and Analytics</h3>
+        <p> The system offers reporting and analytics services to provide insights into pharmacy operations. It includes generating reports on sales, inventory levels, profitability, prescription trends, and other key performance indicators. These reports help in making informed business decisions and identifying areas for improvement.</p>
+        </div>
+        <div class="Services-col">
+        <h3>Inventory Management</h3>
+        <p> This service allows the pharmacy to manage its inventory of medicines and other healthcare products. It includes functionalities such as adding new medicines, updating quantities, tracking expiration dates, generating purchase orders, and managing stock levels.</p>
+        </div>
+        </div>
+<section>
+    <!---products-->
+    <section id="Products">
+        <div class="title-text">
+        <h1>OUR PRODUCTS</h1>
+        <p>Discover a wide range of high-quality products at our store. We carefully select each item to meet your needs and exceed your expectations</p>
+        </div>
+        <div class="products-box">
+         <div class="single-products">
+         <img src="images/vitamins.jpg">
+         <div class="overlay"></div>
+         <div class="products-desc">
+        <h3>VITAMINS</h3>
+        <p>Vitamins are essential organic compounds that are required by the human body in small amounts for various vital functions</p>
+            </div>
+         </div>
+        <div class="single-products">
+            <img src="images/antibotics.jpg">
+            <div class="overlay"></div>
+            <div class="products-desc">
+                <h3>ANTIBOTICS</h3>
+                <p>Antibiotics are powerful medications that play a crucial role in fighting bacterial infections</p>
+            </div>
+        </div>
+        <div class="single-products">
+            <img src="images/sanitizer.jpg">
+            <div class="overlay"></div>
+            <div class="products-desc">
+                <h3>SANITIZER</h3>
+                <p>Hand sanitizers have become an essential part of our daily lives, particularly in maintaining hand hygiene and reducing the spread of germs</p>
+            </div>
+        </div>
+        <div class="single-products">
+            <img src="images/pad.jpg">
+            <div class="overlay"></div>
+            <div class="products-desc">
+                <h3>SANITARY PAD</h3>
+                <p>Sanitary pads, also known as sanitary napkins, are a vital product for menstrual hygiene. </p>     
+        </div>
+            </div>       
+       </div>
+  </section>
+  <!----About us----->
+  <section id="about-us"></section>
+<div class="title-text">
+  <h1>ABOUT US</h1>
+  <p>Empowering communities with quality healthcare solutions - Sampada Distributors, your trusted partner for accessible wellness.</p>
+</div>
+<div class="about-us-row">
+  <div class="about-us-col">
+    <p>At Sampada Distributors, we are committed to improving the well-being and health of communities. As a leading distributor of healthcare products, our mission is to provide accessible and high-quality wellness solutions to individuals and organizations alike.</p>
+  </div>
+  <div class="about-us-col">
+    <p>With a deep understanding of the ever-evolving healthcare landscape, we strive to stay ahead by partnering with renowned pharmaceutical companies and sourcing the finest medications, medical supplies, and healthcare products. Our extensive network allows us to efficiently deliver these products to hospitals, clinics, pharmacies, and directly to the homes of our valued customers.</p>
+  </div>
+  <div class="about-us-col">
+    <p>At the core of our business is a dedicated team of professionals who are passionate about making a positive impact on people's lives. From our knowledgeable customer service representatives to our experienced logistics personnel, we work together seamlessly to ensure prompt and reliable delivery of essential healthcare supplies.</p>
+  </div>
+</div>
+<!---footer-->
+<section id="footer">
+  <img src="images/footer-img.png" class="footer-img">
+  <div class="title-text">
+    <h1>CONTACT</h1>
+    <p>Visit Shop Today</p>
+  </div>
+  <div class="footer-row">
+    <div class="footer-left">
+      <h1>Opening Hours</h1>
+      <p><i class="fa fa-clock-o"></i>Sunday to Friday - 10am to 8pm</p>
+      <p><i class="fa fa-clock-o"></i>Saturday - 11am to 6pm</p>
+    </div>
+    <div class="footer-right">
+      <h1>Get In Touch</h1>
+      <p>Chetrapati, Kathmandu <i class="fa fa-map-marker"></i></p>
+      <p>Sampadadistributors@gmail.com <i class="fa fa-paper-plane"></i></p>
+      <p>9818073937 <i class="fa fa-phone"></i></p>
+    </div>
+  </div>
+</section>
+
+
+  
+
